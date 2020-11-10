@@ -21,9 +21,23 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ![](images/part3/part3-function-configii.png)
 
+------------------------------------------------------------
+
+![](images/functionApp/creacion1.jpg)
+
+![](images/functionApp/creacion2.jpg)
+
+-----------------------------------------------------------
+
 2. Instale la extensión de **Azure Functions** para Visual Studio Code.
 
 ![](images/part3/part3-install-extension.png)
+
+-----------------------------------------------------------
+
+![](images/functionApp/instalacionAzureFunctions.jpg)
+
+----------------------------------------------------------
 
 3. Despliegue la Function de Fibonacci a Azure usando Visual Studio Code. La primera vez que lo haga se le va a pedir autenticarse, siga las instrucciones.
 
@@ -31,9 +45,16 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ![](images/part3/part3-deploy-function-2.png)
 
+
 4. Dirijase al portal de Azure y pruebe la function.
 
 ![](images/part3/part3-test-function.png)
+
+----------------------------------------------------------
+
+![](images/functionApp/ejecucion.jpg)
+
+----------------------------------------------------------
 
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
@@ -42,6 +63,8 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 **Preguntas**
 
 * ¿Qué es un Azure Function?
+** solución para poder integrar un pequeño desarrollo con eventos/sucesos de otros sistemas y que respondan a ellos de una forma muy simple. Tiene una fácil integración con Logic App o con otros productos disponibles en Azure
+
 * ¿Qué es serverless?
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
